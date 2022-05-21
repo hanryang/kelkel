@@ -2,6 +2,8 @@ port_1 = []
 port_2 = []
 port = {}
 
+# 수정을 했어요
+
 while True :
     a = input().split(" ")
     port_1 += a
@@ -15,6 +17,8 @@ while True :
     
 print(port_1)
 print(port_2)
+
+# 여기도 수정했어요
 
 for i in range (0, len(port_1) - 1, 2) :
     port[int(port_1[i + 1])] = int(port_1[i])
