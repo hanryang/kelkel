@@ -20,6 +20,8 @@ print(port_2)
 
 # 여기도 수정했어요
 
+#여기는 개발 환경이에요
+
 for i in range (0, len(port_1) - 1, 2) :
     port[int(port_1[i + 1])] = int(port_1[i])
 for i in range (0, len(port_2) - 1, 2) :
